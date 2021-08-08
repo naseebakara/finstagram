@@ -24,10 +24,3 @@ group :production do
   gem 'rails_12factor'
   gem 'pg', '~> 0.20'
 end
-
-
-group :development, :test do
-  gem 'pry'
-  gem 'shotgun'
-  gem 'sqlite3', '~> 1.3.6'
-end
